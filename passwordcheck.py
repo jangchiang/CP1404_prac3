@@ -3,16 +3,16 @@
 
 def main():
     """Start Program."""
-    password = input("Enter a password")
+    password = input("Please enter a password: ")
 
-    if check_password(password):
+    if get_password(password):
         print("Logged in")
     else:
         print("Illegal access")
 
 
-def check_password(password):
-    return password == "12345678"
+def get_password(password):
+    return password == "1234"
 
 
 main()
