@@ -2,4 +2,6 @@
 '''password check'''
 
 def mainfunction():
-    print("")
+    print("hi")
+
+mainfunction()
