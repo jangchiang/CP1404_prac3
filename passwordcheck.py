@@ -1,6 +1,7 @@
 """CP1404 Theeradon Somsri practical3"""
 '''password check'''
 
+
 def main():
     """Start Program."""
     password = input("Please enter a password: ")
